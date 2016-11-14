@@ -31,7 +31,10 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 ###  Appendices
 
 [A: Available Time Functions][A]
+![](images/A-available-time-functions.png)
+
 <!-- [B: Loading from JSON Files and Saving to QuTiP Files][B] -->
+
 ## References
 
 
