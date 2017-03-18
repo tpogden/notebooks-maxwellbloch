@@ -16,30 +16,22 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 
 ### Solve the Optical Bloch Equations
 
-[03: Rabi Oscillations in a Two-Level System  
-![](images/03-ob-solve-two-rabi-oscillations.png)][03]
-
-[04: Time-Dependent Interaction with a Two-Level System  
-![](images/04-ob-solve-two-tfunc-square.png)][04]
-
-[05: Two-Level System with Spontaneous Decay
-![](images/05-ob-solve-two-tfunc-square-decay.png)][05]
-
-[06: The Lambda-Type Three-Level System
-![](images/06-ob-solve-lamda-on-resonance.png)][06]
+| Notebook | Example Output |
+| --- | --- |
+| [03: Rabi Oscillations in a Two-Level System][03] | ![](images/03-ob-solve-two-rabi-oscillations.png) |
+| [04: Time-Dependent Interaction with a Two-Level System][04] | ![](images/04-ob-solve-two-tfunc-square.png) |
+| [05: Two-Level System with Spontaneous Decay][05] | ![](images/05-ob-solve-two-tfunc-square-decay.png) |
+| [06: The Lambda-Type Three-Level System][06] | ![](images/06-ob-solve-lamda-on-resonance.png) |
 
 ###  Appendices
 
-[A: Available Time Functions][A]
-![](images/A-available-time-functions.png)
+| Notebook | Example Output |
+| --- | --- |
+| [A: Available Time Functions][A] | ![](images/A-available-time-functions.png) |
 
 <!-- [B: Loading from JSON Files and Saving to QuTiP Files][B] -->
 
 ## References
-
-
-
-
 
 [00]: 00-solve-the-schroedinger-equation-for-the-two-level-system.ipynb
 [01]: 01-solve-the-two-level-system-with-time-dependent-interaction.ipynb
