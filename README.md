@@ -10,9 +10,9 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 
 ### Introduction
 
-[00: Solve the Schrödinger Equation for the Two-Level System][00]  
-[01: Solve the Two-Level System with a Time-Dependent Interaction][01]  
-[02: Solve the Optical Bloch Equations with Spontaneous Decay][02]  
+[00: Solve the Schrödinger Equation for the Two-Level System][00]
+[01: Solve the Two-Level System with a Time-Dependent Interaction][01]
+[02: Solve the Optical Bloch Equations with Spontaneous Decay][02]
 
 ### Solve the Optical Bloch Equations
 
@@ -34,8 +34,9 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 | [0.5π Sech Pulse][sech-0.5] | ![](images/mb-solve-two-sech-0.5pi.png) |
 | [1.5π Sech Pulse][sech-1.5] | ![](images/mb-solve-two-sech-1.5pi.png) |
 | [2π Sech Pulse: Self-Induced Transparency][sech-2] | ![](images/mb-solve-two-sech-2pi.png) |
-| [4π Sech Pulse][sech-4] | ![](images/mb-solve-two-sech-4pi.png) |
+| [4π Sech Pulse: Breakup][sech-4] | ![](images/mb-solve-two-sech-4pi.png) |
 | [6π Sech Pulse][sech-6] | ![](images/mb-solve-two-sech-6pi.png) |
+| [2π Sech Pulse with Decay][sech-2d] | ![](images/mb-solve-two-sech-2pi-narrower-even-more-atoms-decay.png) |
 
 ###  Appendices
 
@@ -67,6 +68,7 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [sech-2]: mb-solve-two-sech-2pi.ipynb
 [sech-4]: mb-solve-two-sech-4pi.ipynb
 [sech-6]: mb-solve-two-sech-6pi.ipynb
+[sech-2d]: mb-solve-two-sech-2pi-narrower-even-more-atoms-decay.ipynb
 
 [A]: A-available-time-functions.ipynb
 <!-- [B]: B-loading-from-json-and-saving-qu.ipynb -->
