@@ -31,6 +31,7 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 | [Weak Pulse through Few Atoms][wpfa] | ![](images/mb-solve-two-weak-pulse-few-atoms.png)
 | [Weak Pulse through Some Atoms][wpsa] | ![](images/mb-solve-two-weak-pulse-some-atoms.png) |
 | [Weak Pulse through More Atoms][wpma] | ![](images/mb-solve-two-weak-pulse-more-atoms.png) |
+| [Weak Pulse through Some Atoms with Decay][wpsad] | ![](images/mb-solve-two-weak-pulse-some-atoms-decay.png) |
 | [0.5π Sech Pulse][sech-0.5] | ![](images/mb-solve-two-sech-0.5pi.png) |
 | [1.5π Sech Pulse][sech-1.5] | ![](images/mb-solve-two-sech-1.5pi.png) |
 | [2π Sech Pulse: Self-Induced Transparency][sech-2] | ![](images/mb-solve-two-sech-2pi.png) |
@@ -62,6 +63,7 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [wpfa]: mb-solve-two-weak-pulse-few-atoms.ipynb
 [wpsa]: mb-solve-two-weak-pulse-some-atoms.ipynb
 [wpma]: mb-solve-two-weak-pulse-more-atoms.ipynb
+[wpsad]: mb-solve-two-weak-pulse-some-atoms-decay.ipynb
 
 [sech-0.5]: mb-solve-two-sech-0.5pi.ipynb
 [sech-1.5]: mb-solve-two-sech-1.5pi.ipynb
