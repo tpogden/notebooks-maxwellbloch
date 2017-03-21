@@ -43,7 +43,8 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 
 | Notebook | Output |
 | --- | --- |
-| [Weak Pulse, No Coupling][wpnc] | ![](images/mb-solve-lambda-weak-pulse-more-atoms-no-coupling.png) |
+| [Weak Pulse, No Coupling: Same as Two-Level][wpnc] | ![](images/mb-solve-lambda-weak-pulse-more-atoms-no-coupling.png) |
+| [Weak Pulse, Some Coupling: Electromagnetically Induced Transparency][wpsc] | ![](images/mb-solve-lambda-weak-pulse-more-atoms-some-coupling.png) |
 | [Pulse Compression][pc] | ![](images/mb-solve-lambda-weak-pulse-cloud-atoms-some-coupling.png)
 
 ###  Appendices
