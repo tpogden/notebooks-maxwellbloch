@@ -39,6 +39,13 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 | [6π Sech Pulse][sech-6] | ![](images/mb-solve-two-sech-6pi.png) |
 | [2π Sech Pulse with Decay][sech-2d] | ![](images/mb-solve-two-sech-2pi-narrower-even-more-atoms-decay.png) |
 
+### Solve the Maxwell-Bloch Equations for a Λ-Type Three-Level System
+
+| Notebook | Output |
+| --- | --- |
+| [Weak Pulse, No Coupling][wpnc] | ![](images/mb-solve-lambda-weak-pulse-more-atoms-no-coupling.png) |
+| [Pulse Compression][pc] | ![](images/mb-solve-lambda-weak-pulse-cloud-atoms-some-coupling.png)
+
 ###  Appendices
 
 | Notebook | Output |
@@ -71,6 +78,10 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [sech-4]: mb-solve-two-sech-4pi.ipynb
 [sech-6]: mb-solve-two-sech-6pi.ipynb
 [sech-2d]: mb-solve-two-sech-2pi-narrower-even-more-atoms-decay.ipynb
+
+[wpnc]: mb-solve-lambda-weak-pulse-more-atoms-no-coupling.ipynb
+[wpsc]: mb-solve-lambda-weak-pulse-more-atoms-some-coupling.ipynb
+[pc]: mb-solve-lambda-weak-pulse-cloud-atoms-some-coupling.ipynb
 
 [A]: A-available-time-functions.ipynb
 <!-- [B]: B-loading-from-json-and-saving-qu.ipynb -->
