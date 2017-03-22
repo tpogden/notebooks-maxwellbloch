@@ -45,8 +45,8 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 | --- | --- |
 | [Weak Pulse, No Coupling: Same as Two-Level][wpnc] | ![](images/mb-solve-lambda-weak-pulse-more-atoms-no-coupling.png) |
 | [Weak Pulse, Some Coupling: Electromagnetically Induced Transparency][wpsc] | ![](images/mb-solve-lambda-weak-pulse-more-atoms-some-coupling.png) |
-| [Pulse Compression][pc] | ![](images/mb-solve-lambda-weak-pulse-cloud-atoms-some-coupling.png)
-
+| [Pulse Compression][pc] | ![](images/mb-solve-lambda-weak-pulse-cloud-atoms-some-coupling.png) |
+| [Storage and Retrieval][store] | ![](images/mb-solve-lambda-weak-pulse-cloud-atoms-some-coupling-store.png) |
 ###  Appendices
 
 | Notebook | Output |
@@ -61,12 +61,14 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [01]: 01-solve-the-two-level-system-with-time-dependent-interaction.ipynb
 [02]: 02-solving-the-optical-bloch-equations.ipynb
 
+<!--OB Solve-->
 [03]: 03-ob-solve-two-rabi-oscillations.ipynb
 [04]: 04-ob-solve-two-tfunc-square.ipynb
 [05]: 05-ob-solve-two-tfunc-square-decay.ipynb
 
 [06]: 06-ob-solve-lamda-on-resonance.ipynb
 
+<!--Two-level-->
 [wpvfa]: mb-solve-two-weak-pulse-very-few-atoms.ipynb
 [wpfa]: mb-solve-two-weak-pulse-few-atoms.ipynb
 [wpsa]: mb-solve-two-weak-pulse-some-atoms.ipynb
@@ -80,9 +82,11 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [sech-6]: mb-solve-two-sech-6pi.ipynb
 [sech-2d]: mb-solve-two-sech-2pi-narrower-even-more-atoms-decay.ipynb
 
+<!--Lambda-->
 [wpnc]: mb-solve-lambda-weak-pulse-more-atoms-no-coupling.ipynb
 [wpsc]: mb-solve-lambda-weak-pulse-more-atoms-some-coupling.ipynb
 [pc]: mb-solve-lambda-weak-pulse-cloud-atoms-some-coupling.ipynb
+[store]: mb-solve-lambda-weak-pulse-cloud-atoms-some-coupling-store.ipynb
 
 [A]: A-available-time-functions.ipynb
 <!-- [B]: B-loading-from-json-and-saving-qu.ipynb -->
