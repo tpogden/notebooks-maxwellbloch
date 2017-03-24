@@ -53,10 +53,12 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 | Notebook | Output |
 | --- | --- |
 | [0.5π Sech Pulse, 0.5π Coupling][vsech-0.5-0.5] | ![](images/mb-solve-vee-sech-0.5pi-0.5pi_1.png) |
-| [0.5π Sech Pulse, 1.5π Coupling][vsech-0.5-1.5] | ![](images/mb-solve-vee-sech-0.5pi-1.5pi_1.png) |
-| [√2π Sech Pulse, √2ππ Coupling][vsech-1.41-1.41] | ![](images/mb-solve-vee-sech-1.41pi-1.41pi_1.png) |
-| [√8π Sech Pulse, √8π Coupling][vsech-2.83-2.83] | ![](images/mb-solve-vee-sech-2.83pi-2.83pi_1.png) |
-| [√18π Sech Pulse, √18π Coupling][vsech-r18-r18] | ![](images/mb-solve-vee-sech-root18pi-root18pi_1.png) |
+| [0.5π Sech Pulse, 1.5π Coupling: Simulton][vsech-0.5-1.5] | ![](images/mb-solve-vee-sech-0.5pi-1.5pi_1.png) |
+| [√2π Sech Pulse, √2π Coupling: Simulton][vsech-1.41-1.41] | ![](images/mb-solve-vee-sech-1.41pi-1.41pi_1.png) |
+| [√8π Sech Pulse, √8π Coupling: Double Simulton][vsech-2.83-2.83] | ![](images/mb-solve-vee-sech-2.83pi-2.83pi_1.png) |
+| [√18π Sech Pulse, √18π Coupling: Triple Simulton][vsech-r18-r18] | ![](images/mb-solve-vee-sech-root18pi-root18pi_1.png) |
+| [Weak CW, √2π Coupling: Optical Surfer][v-wc-sech2] | ![](images/mb-solve-vee-weak-cw-sech-2pi_1.png) |
+| [Weak CW, √4π Coupling: Double Optical Surfer][v-wc-sech2] | ![](images/mb-solve-vee-weak-cw-sech-4pi_1.png) |
 
 <!--| [0.5π Sech Pulse, No Coupling][vsech-0.5] | ![](images/mb-solve-vee-sech-0.5pi_1.png) |-->
 <!--| [2.0π Sech Pulse, No Coupling][vsech-2] | ![](images/mb-solve-vee-sech-2pi_1.png) |-->
@@ -112,6 +114,8 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [vsech-1.41-1.41]: mb-solve-vee-sech-1.41pi-1.41pi.ipynb
 [vsech-2.83-2.83]: mb-solve-vee-sech-2.83pi-2.83pi.ipynb
 [vsech-r18-r18]: mb-solve-vee-sech-root18pi-root18pi.ipynb
+[v-wc-sech2]: mb-solve-vee-weak-cw-sech-2pi.ipynb
+[v-wc-sech4]: mb-solve-vee-weak-cw-sech-4pi.ipynb
 
 [A]: A-available-time-functions.ipynb
 <!-- [B]: B-loading-from-json-and-saving-qu.ipynb -->
