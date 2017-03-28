@@ -6,22 +6,25 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 > equations describing the nonlinear propagation of near-resonant light through
 > thermal atomic vapours.
 
-## Index
+## Tutorial
 
-### Introduction
+| Notebook |
+| --- |
+| [00: Solve the Schrödinger Equation for the Two-Level System][00] |
+| [01: Solve the Two-Level System with a Time-Dependent Interaction][01] |
+| [02: Solve the Optical Bloch Equations with Spontaneous Decay][02] |
+| More on the way…
 
-[00: Solve the Schrödinger Equation for the Two-Level System][00]
-[01: Solve the Two-Level System with a Time-Dependent Interaction][01]
-[02: Solve the Optical Bloch Equations with Spontaneous Decay][02]
+## Examples
 
 ### Solve the Optical Bloch Equations
 
 | Notebook | Output |
 | --- | --- |
-| [03: Rabi Oscillations in a Two-Level System][03] | ![](images/03-ob-solve-two-rabi-oscillations.png) |
-| [04: Time-Dependent Interaction with a Two-Level System][04] | ![](images/04-ob-solve-two-tfunc-square.png) |
-| [05: Two-Level System with Spontaneous Decay][05] | ![](images/05-ob-solve-two-tfunc-square-decay.png) |
-| [06: The Lambda-Type Three-Level System][06] | ![](images/06-ob-solve-lamda-on-resonance.png) |
+| [Rabi Oscillations in a Two-Level System][03] | ![](images/03-ob-solve-two-rabi-oscillations.png) |
+| [Time-Dependent Interaction with a Two-Level System][04] | ![](images/04-ob-solve-two-tfunc-square.png) |
+| [Two-Level System with Spontaneous Decay][05] | ![](images/05-ob-solve-two-tfunc-square-decay.png) |
+| [The Lambda-Type Three-Level System][06] | ![](images/06-ob-solve-lamda-on-resonance.png) |
 
 ### Solve the Maxwell-Bloch Equations for a Two-Level System
 
