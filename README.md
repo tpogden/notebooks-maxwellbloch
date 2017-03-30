@@ -21,10 +21,10 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 
 | Notebook | Output |
 | --- | --- |
-| [Rabi Oscillations in a Two-Level System][03] | ![](images/03-ob-solve-two-rabi-oscillations.png) |
-| [Time-Dependent Interaction with a Two-Level System][04] | ![](images/04-ob-solve-two-tfunc-square.png) |
-| [Two-Level System with Spontaneous Decay][05] | ![](images/05-ob-solve-two-tfunc-square-decay.png) |
-| [The Lambda-Type Three-Level System][06] | ![](images/06-ob-solve-lamda-on-resonance.png) |
+| [Rabi Oscillations in a Two-Level System][03] | ![](images/ob-solve-two-rabi-oscillations.png) |
+| [Time-Dependent Interaction with a Two-Level System][04] | ![](images/ob-solve-two-tfunc-square.png) |
+| [Two-Level System with Spontaneous Decay][05] | ![](images/ob-solve-two-tfunc-square-decay.png) |
+| [The Lambda-Type Three-Level System][06] | ![](images/ob-solve-lamda-on-resonance.png) |
 
 ### Solve the Maxwell-Bloch Equations for a Two-Level System
 
