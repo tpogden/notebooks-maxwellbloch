@@ -73,6 +73,7 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 | Notebook | Output |
 | --- | --- |
 | [A: Available Time Functions][A] | ![](appendices/images/A-available-time-functions.png) |
+| [B: Shifting a Solution to the Fixed Frame of Reference][B] | ![](appendices/images/mb-solve-fixed-frame.png) |
 
 <!-- [B: Loading from JSON Files and Saving to QuTiP Files][B] -->
 
@@ -121,4 +122,6 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [v-wc-sech4]: examples/mb-solve-vee-weak-cw-sech-4pi.ipynb
 
 [A]: appendices/A-available-time-functions.ipynb
+[B]: appendices/B-mb-solve-fixed-frame.ipynb
+
 <!-- [B]: B-loading-from-json-and-saving-qu.ipynb -->
