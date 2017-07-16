@@ -28,6 +28,8 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 
 ### Solve the Maxwell-Bloch Equations for a Two-Level System
 
+#### Weak Pulses
+
 | Notebook | Output |
 | --- | --- |
 | [Weak Pulse through Very Few Atoms][wpfa] | ![](examples/images/mb-solve-two-weak-pulse-very-few-atoms.png)
@@ -35,6 +37,18 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 | [Weak Pulse through Some Atoms][wpsa] | ![](examples/images/mb-solve-two-weak-pulse-some-atoms.png) |
 | [Weak Pulse through More Atoms][wpma] | ![](examples/images/mb-solve-two-weak-pulse-more-atoms.png) |
 | [Weak Pulse through Some Atoms with Decay][wpsad] | ![](examples/images/mb-solve-two-weak-pulse-some-atoms-decay.png) |
+
+#### Weak Continuous
+
+| Notebook | Output |
+| --- | --- |
+| [Weak CW through Few Atoms][wcfad] | ![][wcfad-image] 
+| [Weak CW through Some Atoms][wcsad] | ![][wcsad-image] 
+
+#### Solitons
+
+| Notebook | Output |
+| --- | --- |
 | [0.5π Sech Pulse][sech-0.5] | ![](examples/images/mb-solve-two-sech-0.5pi.png) |
 | [1.5π Sech Pulse][sech-1.5] | ![](examples/images/mb-solve-two-sech-1.5pi.png) |
 | [2π Sech Pulse: Self-Induced Transparency][sech-2] | ![](examples/images/mb-solve-two-sech-2pi.png) |
@@ -91,12 +105,20 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [06]: examples/06-ob-solve-lamda-on-resonance.ipynb
 
 <!--Two-level-->
+<!-- Pulses -->
 [wpvfa]: examples/mb-solve-two-weak-pulse-very-few-atoms.ipynb
 [wpfa]: examples/mb-solve-two-weak-pulse-few-atoms.ipynb
 [wpsa]: examples/mb-solve-two-weak-pulse-some-atoms.ipynb
 [wpma]: examples/mb-solve-two-weak-pulse-more-atoms.ipynb
 [wpsad]: examples/mb-solve-two-weak-pulse-some-atoms-decay.ipynb
 
+<!-- Continuous -->
+[wcfad]: examples/mb-solve-two-weak-cw-few-atoms-decay.ipynb
+[wcfad-image]: examples/images/mb-solve-two-weak-cw-few-atoms-decay.png
+[wcsad]: examples/mb-solve-two-weak-cw-some-atoms-decay.ipynb
+[wcsad-image]: examples/images/mb-solve-two-weak-cw-some-atoms-decay.png
+
+<!-- Solitons -->
 [sech-0.5]: examples/mb-solve-two-sech-0.5pi.ipynb
 [sech-1.5]: examples/mb-solve-two-sech-1.5pi.ipynb
 [sech-2]: examples/mb-solve-two-sech-2pi.ipynb
