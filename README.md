@@ -44,6 +44,8 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 | --- | --- |
 | [Weak CW through Few Atoms][wcfad] | ![][wcfad-image] 
 | [Weak CW through Some Atoms][wcsad] | ![][wcsad-image] 
+| [Weak CW through Few Atoms, Long Time][wcfadl] | ![][wcfadl-image] 
+| [Weak CW through Some Atoms, Long Time][wcsadl] | ![][wcsadl-image] 
 
 #### Solitons
 
@@ -106,6 +108,7 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 
 <!--Two-level-->
 <!-- Pulses -->
+
 [wpvfa]: examples/mb-solve-two-weak-pulse-very-few-atoms.ipynb
 [wpfa]: examples/mb-solve-two-weak-pulse-few-atoms.ipynb
 [wpsa]: examples/mb-solve-two-weak-pulse-some-atoms.ipynb
@@ -113,12 +116,19 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [wpsad]: examples/mb-solve-two-weak-pulse-some-atoms-decay.ipynb
 
 <!-- Continuous -->
+
 [wcfad]: examples/mb-solve-two-weak-cw-few-atoms-decay.ipynb
 [wcfad-image]: examples/images/mb-solve-two-weak-cw-few-atoms-decay.png
 [wcsad]: examples/mb-solve-two-weak-cw-some-atoms-decay.ipynb
 [wcsad-image]: examples/images/mb-solve-two-weak-cw-some-atoms-decay.png
 
+[wcfadl]: examples/mb-solve-two-weak-cw-few-atoms-decay-long.ipynb
+[wcfadl-image]: examples/images/mb-solve-two-weak-cw-few-atoms-decay-long.png
+[wcsadl]: examples/mb-solve-two-weak-cw-some-atoms-decay-long.ipynb
+[wcsadl-image]: examples/images/mb-solve-two-weak-cw-some-atoms-decay-long.png
+
 <!-- Solitons -->
+
 [sech-0.5]: examples/mb-solve-two-sech-0.5pi.ipynb
 [sech-1.5]: examples/mb-solve-two-sech-1.5pi.ipynb
 [sech-2]: examples/mb-solve-two-sech-2pi.ipynb
@@ -127,6 +137,7 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [sech-2d]: examples/mb-solve-two-sech-2pi-narrower-even-more-atoms-decay.ipynb
 
 <!--Lambda-->
+
 [wpnc]: examples/mb-solve-lambda-weak-pulse-more-atoms-no-coupling.ipynb
 [wpsc]: examples/mb-solve-lambda-weak-pulse-more-atoms-some-coupling.ipynb
 [pc]: examples/mb-solve-lambda-weak-pulse-cloud-atoms-some-coupling.ipynb
@@ -135,6 +146,7 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 <!--Vee-->
 <!--[vsech-0.5]: examples/mb-solve-vee-sech-0.5pi.ipynb-->
 <!--[vsech-2]: examples/mb-solve-vee-sech-2pi.ipynb-->
+
 [vsech-0.5-0.5]: examples/mb-solve-vee-sech-0.5pi-0.5pi.ipynb
 [vsech-0.5-1.5]: examples/mb-solve-vee-sech-0.5pi-1.5pi.ipynb
 [vsech-1.41-1.41]: examples/mb-solve-vee-sech-1.41pi-1.41pi.ipynb
