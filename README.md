@@ -37,6 +37,8 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 | [Weak Pulse through Some Atoms][wpsa] | ![](examples/images/mb-solve-two-weak-pulse-some-atoms.png) |
 | [Weak Pulse through More Atoms][wpma] | ![](examples/images/mb-solve-two-weak-pulse-more-atoms.png) |
 | [Weak Pulse through Some Atoms with Decay][wpsad] | ![](examples/images/mb-solve-two-weak-pulse-some-atoms-decay.png) |
+| [Weak Square through Few Atoms][wsfa] | ![][wsfa-image] |
+| [Weak Square through Few Atoms with Decay][wsfad] | ![][wsfad-image] |
 
 #### Weak Continuous
 
@@ -100,6 +102,7 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [02]: 02-solving-the-optical-bloch-equations.ipynb
 
 <!--OB Solve-->
+
 [03]: examples/03-ob-solve-two-rabi-oscillations.ipynb
 [04]: examples/04-ob-solve-two-tfunc-square.ipynb
 [05]: examples/05-ob-solve-two-tfunc-square-decay.ipynb
@@ -115,6 +118,10 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [wpma]: examples/mb-solve-two-weak-pulse-more-atoms.ipynb
 [wpsad]: examples/mb-solve-two-weak-pulse-some-atoms-decay.ipynb
 
+[wsfa]: examples/mb-solve-two-weak-square-few-atoms.ipynb
+[wsfa-image]: examples/images/mb-solve-two-weak-square-few-atoms.png
+[wsfad]: examples/mb-solve-two-weak-square-few-atoms-decay.ipynb
+[wsfad-image]: examples/images/mb-solve-two-weak-square-few-atoms-decay.png
 <!-- Continuous -->
 
 [wcfad]: examples/mb-solve-two-weak-cw-few-atoms-decay.ipynb
