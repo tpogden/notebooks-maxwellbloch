@@ -37,6 +37,9 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 | [Weak Pulse through Some Atoms][wpsa] | ![](examples/images/mb-solve-two-weak-pulse-some-atoms.png) |
 | [Weak Pulse through More Atoms][wpma] | ![](examples/images/mb-solve-two-weak-pulse-more-atoms.png) |
 | [Weak Pulse through Some Atoms with Decay][wpsad] | ![](examples/images/mb-solve-two-weak-pulse-some-atoms-decay.png) |
+| [Weak Pulse through Some Atoms with Decay, More Time Steps][wpsadt] | ![](examples/images/mb-solve-two-weak-pulse-few-atoms-decay-more-tsteps-spectral.png) |
+
+
 | [Weak Square through Few Atoms][wsfa] | ![][wsfa-image] |
 | [Weak Square through Few Atoms with Decay][wsfad] | ![][wsfad-image] |
 
@@ -117,11 +120,14 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [wpsa]: examples/mb-solve-two-weak-pulse-some-atoms.ipynb
 [wpma]: examples/mb-solve-two-weak-pulse-more-atoms.ipynb
 [wpsad]: examples/mb-solve-two-weak-pulse-some-atoms-decay.ipynb
+[wpsadt]: examples/mb-solve-two-weak-pulse-few-atoms-decay-more-tsteps.ipynb
 
 [wsfa]: examples/mb-solve-two-weak-square-few-atoms.ipynb
 [wsfa-image]: examples/images/mb-solve-two-weak-square-few-atoms.png
 [wsfad]: examples/mb-solve-two-weak-square-few-atoms-decay.ipynb
 [wsfad-image]: examples/images/mb-solve-two-weak-square-few-atoms-decay.png
+
+
 <!-- Continuous -->
 
 [wcfad]: examples/mb-solve-two-weak-cw-few-atoms-decay.ipynb
