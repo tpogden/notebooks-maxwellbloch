@@ -62,7 +62,7 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 | [4π Sech Pulse: Breakup][sech-4] | ![](examples/images/mb-solve-two-sech-4pi.png) |
 | [6π Sech Pulse][sech-6] | ![](examples/images/mb-solve-two-sech-6pi.png) |
 | [2π Sech Pulse with Decay][sech-2d] | ![](examples/images/mb-solve-two-sech-2pi-narrower-even-more-atoms-decay.png) |
-| [Two 2π Sech Pulse Collision][sech-2c] | ![] (examples/images/mb-solve-two-sech-2pi-collision.png) |
+| [Two 2π Sech Pulse Collision][sech-2c] | ![](examples/images/mb-solve-two-sech-2pi-collision.png) |
 
 ### Solve the Maxwell-Bloch Equations for a Λ-Type System
 
