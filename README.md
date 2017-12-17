@@ -41,8 +41,6 @@ video and animated gif formats.
 | [Weak Pulse through More Atoms][wpma] | ![](examples/images/mb-solve-two-weak-pulse-more-atoms.png) |
 | [Weak Pulse through Some Atoms with Decay][wpsad] | ![](examples/images/mb-solve-two-weak-pulse-some-atoms-decay.png) |
 | [Weak Pulse through Few Atoms with Decay, More Time Steps][wpsadt] | ![](examples/images/mb-solve-two-weak-pulse-few-atoms-decay-more-tsteps-spectral.png) |
-
-
 | [Weak Square through Few Atoms][wsfa] | ![][wsfa-image] |
 | [Weak Square through Few Atoms with Decay][wsfad] | ![][wsfad-image] |
 
@@ -98,6 +96,7 @@ video and animated gif formats.
 | --- | --- |
 | [A: Available Time Functions][A] | ![](appendices/images/A-available-time-functions.png) |
 | [B: Shifting a Solution to the Fixed Frame of Reference][B] | ![](appendices/images/mb-solve-fixed-frame.png) |
+| [C: Spectral Analysis][C] | ![](appendices/images/C-spectral-analysis.png)
 
 ## Tools
 
@@ -133,7 +132,8 @@ will output `example.json.mp4`.
 
 ### `tools/make-ffmpeg-gif.sh`
 
-**Requires [FFmpeg][ff]**. This bash script takes an MP4 file output from make-fixed-frame-mp4.py and converts it to an animated gif file.
+**Requires [FFmpeg][ff]**. This bash script takes an MP4 file output from
+make-fixed-frame-mp4.py and converts it to an animated gif file.
 
 ```
 optional arguments:
@@ -234,6 +234,7 @@ will output `example.json.mp4.gif`, which should look like this:
 
 [A]: appendices/A-available-time-functions.ipynb
 [B]: appendices/B-mb-solve-fixed-frame.ipynb
+[C]: appendices/C-spectral-analysis.ipynb
 
 <!-- [B]: B-loading-from-json-and-saving-qu.ipynb -->
 
