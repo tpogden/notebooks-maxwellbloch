@@ -99,69 +99,6 @@ video and animated gif formats.
 | [B: Shifting a Solution to the Fixed Frame of Reference][B] | ![](appendices/images/mb-solve-fixed-frame.png) |
 | [C: Spectral Analysis][C] | ![](appendices/images/C-spectral-analysis.png)
 
-## Tools
-
-### `tools/make-fixed-frame-mp4.py`
-
-This Python script takes an MBSolve problem defined in a JSON file and outputs
-an MP4 video showing the propagation.
-
-```
-optional arguments:
-  -h, --help            show this help message and exit
-  -f FILE, --file FILE  Path of input file.
-  -c SPEED_OF_LIGHT, --speed-of-light SPEED_OF_LIGHT
-                        Speed of Light in the system units. (Default: 0.1)
-  -m Y_MIN, --y-min Y_MIN
-                        Minimum of the y-axis. (Default: 0.0)
-  -y Y_MAX, --y-max Y_MAX
-                        Maximum of the y-axis maximum. (Default: 1.0)
-  -z ZOOM, --zoom ZOOM  To use interpolation on the output data, select the
-                        order of interpolation. (e.g. 2, 4). Note this may
-                        introduce numerical artefacts. (Default: 1)
-```
-
-Only the path of the input file is required. An example, `tools/example.json`
-is provided.
-
-
-```
-python tools/make-fixed-frame-mp4.py -f example.json -y 0.001
-```
-
-will output `example.json.mp4`.
-
-### `tools/make-ffmpeg-gif.sh`
-
-**Requires [FFmpeg][ff]**. This bash script takes an MP4 file output from
-make-fixed-frame-mp4.py and converts it to an animated gif file.
-
-```
-optional arguments:
-  -f FILENAME, --file FILENAME
-                        Path of input MP4 file.
-  -n INSCALE, --in-scale INSCALE
-                        The width in pixels of the input. (Default: 900)
-  -s SCALE, --scale
-                        The width in pixels of the output gif. (Default: 900)
-  -i INFPS, --in-fps
-                        The frames-per-second of the input MP4. (Default: 30)
-  -p FPS, --fps FPS
-                        The frames-per-second of the output gif. (Default: 30)
-```
-
-Only the path of the MP4 file is required. Using the MP4 generated above
-
-```
-. tools/make-ffmpeg-gif.sh -f example.json.mp4
-```
-
-will output `example.json.mp4.gif`, which should look like this:
-
-![](tools/example.json.mp4.gif)
-
-## References
-
 <!-- Links -->
 
 [00]: 00-solve-the-schroedinger-equation-for-the-two-level-system.ipynb
