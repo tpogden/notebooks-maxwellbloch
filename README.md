@@ -6,9 +6,6 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 > equations describing the nonlinear propagation of near-resonant light through
 > thermal atomic vapours.
 
-[Tools are provided](#tools) for converting MaxwellBloch output files to MP4
-video and animated gif formats.
-
 ## Examples
 
 ### Solve the Maxwell-Bloch Equations for a Two-Level System
