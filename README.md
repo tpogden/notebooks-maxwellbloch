@@ -9,15 +9,6 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 [Tools are provided](#tools) for converting MaxwellBloch output files to MP4
 video and animated gif formats.
 
-## Tutorial
-
-| Notebook |
-| --- |
-| [00: Solve the Schrödinger Equation for the Two-Level System][00] |
-| [01: Solve the Two-Level System with a Time-Dependent Interaction][01] |
-| [02: Solve the Optical Bloch Equations with Spontaneous Decay][02] |
-| More on the way…
-
 ## Examples
 
 ### Solve the Optical Bloch Equations
@@ -31,15 +22,21 @@ video and animated gif formats.
 
 ### Solve the Maxwell-Bloch Equations for a Two-Level System
 
-#### Weak Pulses
+#### Weak Gaussian Pulses
 
 | Notebook | Output |
 | --- | --- |
-| [Weak Pulse through Very Few Atoms][wpfa] | ![](examples/images/mb-solve-two-weak-pulse-very-few-atoms.png)
+| [Weak Pulse through Very Few Atoms][wpvfa] | ![](examples/images/mb-solve-two-weak-pulse-very-few-atoms.png)
 | [Weak Pulse through Few Atoms][wpfa] | ![](examples/images/mb-solve-two-weak-pulse-few-atoms.png)
 | [Weak Pulse through Some Atoms][wpsa] | ![](examples/images/mb-solve-two-weak-pulse-some-atoms.png) |
 | [Weak Pulse through More Atoms][wpma] | ![](examples/images/mb-solve-two-weak-pulse-more-atoms.png) |
+| [Weak Pulse through Few Atoms with Decay][wpfad] | ![](examples/images/mb-solve-two-weak-pulse-few-atoms-decay.png) |
 | [Weak Pulse through Some Atoms with Decay][wpsad] | ![](examples/images/mb-solve-two-weak-pulse-some-atoms-decay.png) |
+
+#### Weak Square Pulses
+
+| Notebook | Output |
+| --- | --- |
 | [Weak Square through Few Atoms][wsfa] | ![][wsfa-image] |
 | [Weak Square through Few Atoms with Decay][wsfad] | ![][wsfad-image] |
 
@@ -90,6 +87,14 @@ video and animated gif formats.
 <!--| [0.5π Sech Pulse, No Coupling][vsech-0.5] | ![](examples/images/mb-solve-vee-sech-0.5pi_1.png) |-->
 <!--| [2.0π Sech Pulse, No Coupling][vsech-2] | ![](examples/images/mb-solve-vee-sech-2pi_1.png) |-->
 
+## Tutorial
+
+| Notebook |
+| --- |
+| [00: Solve the Schrödinger Equation for the Two-Level System][00] |
+| [01: Solve the Two-Level System with a Time-Dependent Interaction][01] |
+| [02: Solve the Optical Bloch Equations with Spontaneous Decay][02] |
+| More on the way…
 
 ###  Appendices
 
@@ -120,6 +125,7 @@ video and animated gif formats.
 [wpfa]: examples/mb-solve-two-weak-pulse-few-atoms.ipynb
 [wpsa]: examples/mb-solve-two-weak-pulse-some-atoms.ipynb
 [wpma]: examples/mb-solve-two-weak-pulse-more-atoms.ipynb
+[wpfad]: examples/mb-solve-two-weak-pulse-few-atoms-decay.ipynb
 [wpsad]: examples/mb-solve-two-weak-pulse-some-atoms-decay.ipynb
 [wpsadt]: examples/mb-solve-two-weak-pulse-few-atoms-decay-more-tsteps.ipynb
 
