@@ -11,15 +11,6 @@ video and animated gif formats.
 
 ## Examples
 
-### Solve the Optical Bloch Equations
-
-| Notebook | Output |
-| --- | --- |
-| [Rabi Oscillations in a Two-Level System][03] | ![](examples/images/ob-solve-two-rabi-oscillations.png) |
-| [Time-Dependent Interaction with a Two-Level System][04] | ![](examples/images/ob-solve-two-tfunc-square.png) |
-| [Two-Level System with Spontaneous Decay][05] | ![](examples/images/ob-solve-two-tfunc-square-decay.png) |
-| [The Lambda-Type Three-Level System][06] | ![](examples/images/ob-solve-lamda-on-resonance.png) |
-
 ### Solve the Maxwell-Bloch Equations for a Two-Level System
 
 #### Weak Gaussian Pulses
@@ -87,6 +78,15 @@ video and animated gif formats.
 <!--| [0.5π Sech Pulse, No Coupling][vsech-0.5] | ![](examples/images/mb-solve-vee-sech-0.5pi_1.png) |-->
 <!--| [2.0π Sech Pulse, No Coupling][vsech-2] | ![](examples/images/mb-solve-vee-sech-2pi_1.png) |-->
 
+### Solve the Optical Bloch Equations
+
+| Notebook | Output |
+| --- | --- |
+| [Rabi Oscillations in a Two-Level System][03] | ![](examples/images/ob-solve-two-rabi-oscillations.png) |
+| [Time-Dependent Interaction with a Two-Level System][04] | ![](examples/images/ob-solve-two-tfunc-square.png) |
+| [Two-Level System with Spontaneous Decay][05] | ![](examples/images/ob-solve-two-tfunc-square-decay.png) |
+| [The Lambda-Type Three-Level System][06] | ![](examples/images/ob-solve-lamda-on-resonance.png) |
+
 ## Tutorial
 
 | Notebook |
@@ -112,11 +112,11 @@ video and animated gif formats.
 
 <!--OB Solve-->
 
-[03]: examples/03-ob-solve-two-rabi-oscillations.ipynb
-[04]: examples/04-ob-solve-two-tfunc-square.ipynb
-[05]: examples/05-ob-solve-two-tfunc-square-decay.ipynb
+[03]: examples/ob-solve-two-rabi-oscillations.ipynb
+[04]: examples/ob-solve-two-tfunc-square.ipynb
+[05]: examples/ob-solve-two-tfunc-square-decay.ipynb
 
-[06]: examples/06-ob-solve-lamda-on-resonance.ipynb
+[06]: examples/ob-solve-lamda-on-resonance.ipynb
 
 <!--Two-level-->
 <!-- Pulses -->
