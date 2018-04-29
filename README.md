@@ -103,9 +103,9 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 
 <!-- Links -->
 
-[00]: 00-solve-the-schroedinger-equation-for-the-two-level-system.ipynb
-[01]: 01-solve-the-two-level-system-with-time-dependent-interaction.ipynb
-[02]: 02-solving-the-optical-bloch-equations.ipynb
+[00]: tutorial/00-solve-the-schroedinger-equation-for-the-two-level-system.ipynb
+[01]: tutorial/01-solve-the-two-level-system-with-time-dependent-interaction.ipynb
+[02]: tutorial/02-solving-the-optical-bloch-equations.ipynb
 
 <!--OB Solve-->
 
