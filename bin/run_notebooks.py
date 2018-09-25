@@ -22,6 +22,8 @@ parser.add_argument('-t', '--timeout', help='Length of time (in secs) a cell \
     required=False)
 parser.add_argument('-p', '--run-path', help='The path the notebook will be \
     run from (default pwd).', default='.', required=False)
+parser.add_argument('-w', '--overwrite', help='Overwrite existing \
+    notebook(s)? (default No)', action='store_true', required=False)
 args = parser.parse_args()
 print('Args:', args)
 if not args.file_list: # Default file_list
@@ -42,7 +44,9 @@ print('*****')
 
 # Execute notebooks and output
 for i, n in enumerate(notebooks):
-    n_out = n + '_out'
+    n_out = n
+    if not args.overwrite:
+        n_out += '_out'
     with open(n + '.ipynb') as f:
         nb = nbformat.read(f, as_version=4)
         ep = ExecutePreprocessor(timeout=int(args.timeout), kernel_name='python3')
