@@ -6,4 +6,5 @@
 
 # Generating images
 palette.png
+.gif
 examples/images/*.json
