@@ -39,17 +39,44 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 | [Weak CW through Few Atoms, Long Time][wcfadl] | ![][wcfadl-image] |
 | [Weak CW through Some Atoms, Long Time][wcsadl] | ![][wcsadl-image] |
 
+[wcfad]: examples/mb-solve-two-weak-cw-few-atoms-decay.ipynb
+[wcfad-image]: examples/images/mb-solve-two-weak-cw-few-atoms-decay.png
+[wcsad]: examples/mb-solve-two-weak-cw-some-atoms-decay.ipynb
+[wcsad-image]: examples/images/mb-solve-two-weak-cw-some-atoms-decay.png
+
+[wcfadl]: examples/mb-solve-two-weak-cw-few-atoms-decay-long.ipynb
+[wcfadl-image]: examples/images/mb-solve-two-weak-cw-few-atoms-decay-long.png
+[wcsadl]: examples/mb-solve-two-weak-cw-some-atoms-decay-long.ipynb
+[wcsadl-image]: examples/images/mb-solve-two-weak-cw-some-atoms-decay-long.png
+
 #### Solitons
 
 | Notebook | Output |
 | --- | --- |
-| [0.5π Sech Pulse][sech-0.5] | ![](examples/images/mb-solve-two-sech-0.5pi.png) |
-| [1.5π Sech Pulse][sech-1.5] | ![](examples/images/mb-solve-two-sech-1.5pi.png) |
-| [2π Sech Pulse: Self-Induced Transparency][sech-2] | ![](examples/images/mb-solve-two-sech-2pi.png) |
-| [4π Sech Pulse: Breakup][sech-4] | ![](examples/images/mb-solve-two-sech-4pi.png) |
-| [6π Sech Pulse][sech-6] | ![](examples/images/mb-solve-two-sech-6pi.png) |
-| [2π Sech Pulse with Decay][sech-2d] | ![](examples/images/mb-solve-two-sech-2pi-narrower-even-more-atoms-decay.png) |
-| [Two 2π Sech Pulse Collision][sech-2c] | ![](examples/images/mb-solve-two-sech-2pi-collision.png) |
+| [0.8π Gaussian Pulse][gaus-0.8] | ![][gaus-0.8-png] |
+| [1.8π Gaussian Pulse][gaus-1.8] | ![][gaus-1.8-png] |
+| [2π Sech Pulse: Self-Induced Transparency][sech-2] | ![][sech-2-png] |
+| [4π Sech Pulse: Breakup][sech-4] | ![][sech-4-png] |
+| [6π Sech Pulse][sech-6] | ![][sech-6-png] |
+| [2π Sech Pulse with Decay][sech-2d] | ![][sech-2d-png] |
+| [Two 2π Sech Pulse Collision][sech-2c] | ![][sech-2c-png] |
+
+[gaus-0.8]: examples/mb-solve-two-gaussian-0.8pi.ipynb
+[gaus-0.8-png]: examples/images/mb-solve-two-gaussian-0.8pi.png
+[gaus-1.8]: examples/mb-solve-two-gaussian-1.8pi.ipynb
+[gaus-1.8-png]: examples/images/mb-solve-two-gaussian-1.8pi.png
+
+[sech-2]: examples/mb-solve-two-sech-2pi.ipynb
+[sech-2-png]: examples/images/mb-solve-two-sech-2pi.png
+[sech-4]: examples/mb-solve-two-sech-4pi.ipynb
+[sech-4-png]: examples/images/mb-solve-two-sech-4pi.png
+[sech-6]: examples/mb-solve-two-sech-6pi.ipynb
+[sech-6-png]: examples/images/mb-solve-two-sech-6pi.png
+
+[sech-2d]: examples/mb-solve-two-sech-2pi-narrower-even-more-atoms-decay.ipynb
+[sech-2d-png]: examples/images/mb-solve-two-sech-2pi-narrower-even-more-atoms-decay.png
+[sech-2c]: examples/mb-solve-two-sech-2pi-collision.ipynb
+[sech-2c-png]: examples/images/mb-solve-two-sech-2pi-collision.png
 
 ### Solve the Maxwell-Bloch Equations for a Λ-Type System
 
@@ -134,25 +161,8 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 
 <!-- Continuous -->
 
-[wcfad]: examples/mb-solve-two-weak-cw-few-atoms-decay.ipynb
-[wcfad-image]: examples/images/mb-solve-two-weak-cw-few-atoms-decay.png
-[wcsad]: examples/mb-solve-two-weak-cw-some-atoms-decay.ipynb
-[wcsad-image]: examples/images/mb-solve-two-weak-cw-some-atoms-decay.png
 
-[wcfadl]: examples/mb-solve-two-weak-cw-few-atoms-decay-long.ipynb
-[wcfadl-image]: examples/images/mb-solve-two-weak-cw-few-atoms-decay-long.png
-[wcsadl]: examples/mb-solve-two-weak-cw-some-atoms-decay-long.ipynb
-[wcsadl-image]: examples/images/mb-solve-two-weak-cw-some-atoms-decay-long.png
 
-<!-- Solitons -->
-
-[sech-0.5]: examples/mb-solve-two-sech-0.5pi.ipynb
-[sech-1.5]: examples/mb-solve-two-sech-1.5pi.ipynb
-[sech-2]: examples/mb-solve-two-sech-2pi.ipynb
-[sech-4]: examples/mb-solve-two-sech-4pi.ipynb
-[sech-6]: examples/mb-solve-two-sech-6pi.ipynb
-[sech-2d]: examples/mb-solve-two-sech-2pi-narrower-even-more-atoms-decay.ipynb
-[sech-2c]: examples/mb-solve-two-sech-2pi-collision.ipynb
 
 <!--Lambda-->
 
