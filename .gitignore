@@ -1,3 +1,10 @@
 .ipynb_checkpoints/
 .DS_Store
+
+# Savefiles
 *.qu
+
+# Generating images
+palette.png
+.gif
+examples/images/*.json
