@@ -102,6 +102,14 @@ A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/m
 <!--| [0.5π Sech Pulse, No Coupling][vsech-0.5] | ![](examples/images/mb-solve-vee-sech-0.5pi_1.png) |-->
 <!--| [2.0π Sech Pulse, No Coupling][vsech-2] | ![](examples/images/mb-solve-vee-sech-2pi_1.png) |-->
 
+### Solve the Maxwell-Bloch Equations for a Ladder-Type System
+
+| Notebook | Output |
+| --- | --- |
+| [Weak Pulse, Some Coupling, Decay, Detuning][ladder-wpsc] | ![](examples/images/mb-solve-ladder-weak-pulse-more-atoms-some-coupling-decay.png) |
+
+[ladder-wpsc]: examples/mb-solve-ladder-weak-pulse-more-atoms-some-coupling-decay.ipynb
+
 ### Solve the Optical Bloch Equations
 
 | Notebook | Output |
