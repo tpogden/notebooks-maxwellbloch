@@ -1,5 +1,11 @@
 # Notebooks on MaxwellBloch
 
+> **This repository is archived.** These notebooks were written for early
+> versions of MaxwellBloch (now renamed **clerq**) and are no longer
+> maintained. Maintained, executed examples and documentation are at
+> **<https://clerq.org>**, and the package is at
+> <https://github.com/tpogden/clerq> (`pip install clerq`).
+
 A set of Jupyter Notebooks on the [MaxwellBloch](https://github.com/tommyogden/maxwellbloch/) package.
 
 > MaxwellBloch is a Python package for solving the coupled Maxwell-Bloch
